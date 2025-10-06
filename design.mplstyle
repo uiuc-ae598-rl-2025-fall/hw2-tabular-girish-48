@@ -1,0 +1,32 @@
+# Set fontsize and options
+font.size: 10
+font.family: serif
+font.serif: Palatino
+# mathtext.fontset: stix
+
+# Set the figure size (for MNRAS!)
+# figure.figsize: 3.3, 3.0
+figure.figsize : 4.9, 3.5
+# figure.titlesize: medium
+
+# Remove padding
+figure.constrained_layout.use: True
+figure.constrained_layout.h_pad: 0.1
+figure.constrained_layout.w_pad: 0.1
+figure.constrained_layout.hspace: 0.005
+figure.constrained_layout.wspace: 0.005
+
+# Change ticks to face in instead of out
+xtick.direction: in
+ytick.direction: in
+
+# Change color cycle
+axes.prop_cycle: cycler('color', ['0077BB','33BBEE', '009988', 'EE7733', 'CC3311', 'EE3377', 'BBBBBB'])
+axes.titlesize: medium
+
+# Remove Legend box
+legend.frameon: False
+legend.fontsize: 9
+
+text.usetex: True
+text.latex.preamble: \usepackage{amsmath}\usepackage{amssymb}\usepackage{siunitx}[=v2]
